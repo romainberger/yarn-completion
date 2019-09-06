@@ -1,0 +1,21 @@
+{
+  "name": "yarn-completion",
+  "description": "Autocomplete for your projects scripts with yarn",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Romain Berger",
+  "bin": {
+    "yarn-completion": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainberger/yarn-completion.git"
+  },
+  "homepage": "https://github.com/romainberger/yarn-completion#readme",
+  "keywords": [
+    "yarn",
+    "completion",
+    "autocomplete",
+    "bash"
+  ]
+}
