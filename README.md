@@ -15,7 +15,6 @@ Copy the file `yarn-completion.bash` to your user directory then add this script
 ```bash
 if [ -f ~/yarn-completion.bash ]; then
     . ~/yarn-completion.bash
-    __yarn_completion_complete k
 fi
 ```
 
