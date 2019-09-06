@@ -2,7 +2,7 @@
 
 __yarn_completion_complete_scripts()
 {
-    LIST=$(yarn-complete $PWD)
+    LIST=$(yarn-completion $PWD)
     COMPREPLY+=($(compgen -W "$LIST" "${COMP_WORDS[1]}"))
 }
 
